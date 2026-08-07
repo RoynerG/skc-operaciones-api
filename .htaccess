@@ -1,0 +1,15 @@
+Options -Indexes
+RewriteEngine On
+
+# Conserva Authorization para los tokens Bearer bajo Apache/FastCGI.
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# Impide servir código, configuración, pruebas y datos locales.
+RewriteRule ^(?:src|config|storage|tests|vendor)(?:/|$) - [F,L,NC]
+RewriteRule ^(?:\.env|\.git|composer\.(?:json|lock)|package(?:-lock)?\.json) - [F,L,NC]
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+RewriteRule ^ index.php [QSA,L]
