@@ -239,34 +239,28 @@ final class InventoryModule
         if (!is_array($section) || trim($transcript) === '') {
             throw new InvalidArgumentException('No se recibió una sección y descripción válidas.');
         }
-        $allowed = [];
-        foreach ((array) ($section['items'] ?? []) as $item) {
-            if (($item['kind'] ?? '') === 'field' && ($item['type'] ?? '') !== 'hidden') {
-                $allowed[$item['name']] = ['label' => $item['label'], 'type' => $item['type']];
-            } elseif (($item['kind'] ?? '') === 'repeater') {
-                $children = [];
-                foreach ((array) ($item['fields'] ?? []) as $field) {
-                    $children[$field['name']] = ['label' => $field['label'], 'type' => $field['type']];
-                }
-                $allowed[$item['name']] = ['label' => $item['label'], 'type' => 'repeater', 'fields' => $children];
-            }
-        }
-        $prompt = "Convierte esta descripción verbal de un inventario inmobiliario en datos estructurados. Usa exclusivamente los nombres permitidos, no inventes datos y responde solo JSON {\"values\":{...}}.\nCampos: "
-            . $this->json($allowed) . "\nDescripción: " . mb_substr(trim($transcript), 0, 12000);
+        $mapper = new InventoryAiMapper();
+        $allowed = $mapper->specification($section, fn(int $id): array => $this->glossary($id));
+        $prompt = "Convierte el dictado de un inventario inmobiliario en datos estructurados para completar el formulario actual. "
+            . "Usa exclusivamente las claves y opciones permitidas. Cada elemento físico mencionado debe ser un objeto dentro del array del repetidor correspondiente. "
+            . "Si se menciona un elemento singular sin cantidad, usa cantidad 1. No inventes información ausente. "
+            . "Responde únicamente JSON válido con la forma {\"values\":{...}}.\nEsquema permitido: "
+            . $this->json($allowed) . "\nDictado del funcionario: " . mb_substr(trim($transcript), 0, 12000);
         $response = $this->postJson($endpoint, [
-            'model' => Env::get('MINIMAX_MODEL', 'MiniMax-M2.1'),
+            'model' => Env::get('MINIMAX_MODEL', 'MiniMax-M2.7'),
             'temperature' => 0.2,
+            'max_completion_tokens' => 1800,
+            'reasoning_split' => true,
             'messages' => [
-                ['role' => 'system', 'content' => 'Eres un asistente de captura. Respondes únicamente JSON válido.'],
+                ['role' => 'system', 'content' => 'Eres un asistente preciso de captura inmobiliaria en Colombia. Devuelves únicamente JSON válido, sin explicación.'],
                 ['role' => 'user', 'content' => $prompt],
             ],
         ], ['Authorization: Bearer ' . $key]);
-        $content = (string) ($response['choices'][0]['message']['content'] ?? '');
-        $start = strpos($content, '{');
-        $end = strrpos($content, '}');
-        $decoded = $start !== false && $end !== false ? json_decode(substr($content, $start, $end - $start + 1), true) : null;
-        $suggested = is_array($decoded['values'] ?? null) ? $decoded['values'] : (is_array($decoded) ? $decoded : []);
-        return ['values' => array_intersect_key($this->sanitizeArray($suggested), $allowed)];
+        $suggested = $mapper->normalize($mapper->decodeResponse($response), $allowed);
+        if ($suggested === []) {
+            throw new RuntimeException('MiniMax no identificó campos aplicables en esta sección. Describe el elemento, material, estado y observaciones.');
+        }
+        return ['values' => $suggested];
     }
 
     private function form(string $mode): array
@@ -529,7 +523,11 @@ final class InventoryModule
         $status = (int) curl_getinfo($curl, CURLINFO_RESPONSE_CODE);
         $error = curl_error($curl);
         curl_close($curl);
-        if ($body === false || $status < 200 || $status >= 300) throw new RuntimeException($error ?: 'El servicio externo respondió HTTP ' . $status . '.');
+        if ($body === false || $status < 200 || $status >= 300) {
+            $remote = json_decode((string) $body, true);
+            $message = (string) ($remote['base_resp']['status_msg'] ?? $remote['error']['message'] ?? $remote['message'] ?? '');
+            throw new RuntimeException($error ?: ($message !== '' ? 'MiniMax: ' . mb_substr($message, 0, 300) : 'El servicio externo respondió HTTP ' . $status . '.'));
+        }
         $decoded = json_decode((string) $body, true);
         return is_array($decoded) ? $decoded : [];
     }

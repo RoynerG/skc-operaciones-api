@@ -4,8 +4,10 @@ declare(strict_types=1);
 
 use SKC\FormStudio\ActionRunner;
 use SKC\FormStudio\Auth;
+use SKC\FormStudio\Branding;
 use SKC\FormStudio\Database;
 use SKC\FormStudio\FormRepository;
+use SKC\FormStudio\InventoryAiMapper;
 use SKC\FormStudio\InventoryModule;
 
 define('FORM_STUDIO_ROOT', dirname(__DIR__));
@@ -34,6 +36,9 @@ function check(bool $condition, string $message): void
 
 try {
     $db = Database::connection();
+    $branding = (new Branding($db))->publicConfig();
+    check(($branding['colors']['primary'] ?? '') === '#1B447D', 'El branding institucional no cargó la paleta esperada.');
+    check(filter_var($branding['logoUrl'] ?? '', FILTER_VALIDATE_URL) !== false, 'El branding no devolvió un logo válido.');
     $db->exec("CREATE TABLE wp_jet_cct_funcionarios (
         _ID INTEGER PRIMARY KEY, id_empleado TEXT, user_others_apss TEXT, pass_others_apss TEXT,
         nombre TEXT, correo TEXT, rol TEXT, activo TEXT
@@ -64,6 +69,30 @@ try {
     check($inventoryDraft['revision'] === 1 && ($inventoryReload['values']['direccion'] ?? '') === 'Dirección de prueba', 'Falló el borrador del inventario especializado.');
     check(!array_key_exists('campo_no_permitido', $inventoryReload['values']), 'El inventario aceptó un campo no permitido.');
     $inventory->deleteDraft('add', ['id_inmueble' => '77'], $session['user']);
+
+    $aiMapper = new InventoryAiMapper();
+    $aiSpecification = $aiMapper->specification([
+        'items' => [[
+            'kind' => 'repeater', 'name' => 'sala', 'label' => 'Sala',
+            'fields' => [
+                ['name' => 'descripcion_sala', 'label' => 'Elemento', 'type' => 'select', 'glossaryId' => 669],
+                ['name' => 'cantidad_sala', 'label' => 'Cantidad', 'type' => 'text'],
+                ['name' => 'tipo_de_material_sala', 'label' => 'Material', 'type' => 'text'],
+                ['name' => 'estado_sala', 'label' => 'Estado', 'type' => 'select', 'glossaryId' => 673],
+            ],
+        ]],
+    ], static fn(int $id): array => $id === 669
+        ? [['value' => 'Puertas', 'label' => 'Puertas']]
+        : [['value' => 'Bueno', 'label' => 'Bueno'], ['value' => 'Regular', 'label' => 'Regular']]);
+    $aiDecoded = $aiMapper->decodeResponse([
+        'choices' => [['message' => ['content' => '<think>razonamiento interno</think>```json' . "\n" . '{"values":{"sala":[{"descripcion_sala":"puerta","tipo_de_material_sala":"madera","estado_sala":"bueno"}]}}' . "\n" . '```']]],
+        'base_resp' => ['status_code' => 0],
+    ]);
+    $aiValues = $aiMapper->normalize($aiDecoded, $aiSpecification);
+    check(($aiValues['sala'][0]['descripcion_sala'] ?? '') === 'Puertas', 'La IA no normalizó el elemento del repetidor.');
+    check(($aiValues['sala'][0]['estado_sala'] ?? '') === 'Bueno', 'La IA no normalizó el estado del repetidor.');
+    check(($aiValues['sala'][0]['tipo_de_material_sala'] ?? '') === 'madera', 'La IA no conservó el material dictado.');
+    check(($aiValues['sala'][0]['cantidad_sala'] ?? '') === '1', 'La IA no asignó cantidad uno al elemento singular.');
 
     $forms = new FormRepository($db);
     $definition = FormRepository::starter('prueba-integral', 'Prueba integral');
@@ -98,6 +127,7 @@ try {
         'status' => 'ok', 'auth' => true, 'formVersion' => 2, 'draftRevision' => 1,
         'submissionId' => $submission['id'], 'actionStatus' => $results[0]['status'],
         'inventorySections' => count($inventoryBoot['schema']['sections']), 'inventoryDraft' => true,
+        'aiRepeaterMapping' => true, 'branding' => true,
     ], JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) . PHP_EOL;
 } finally {
     unset($inventory, $forms, $auth, $db);

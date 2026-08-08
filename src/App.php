@@ -13,6 +13,7 @@ final class App
     private FormRepository $forms;
     private ActionRunner $actions;
     private InventoryModule $inventory;
+    private Branding $branding;
     private PDO $db;
 
     public function __construct()
@@ -27,6 +28,7 @@ final class App
         $this->forms = new FormRepository($db);
         $this->actions = new ActionRunner();
         $this->inventory = new InventoryModule($db);
+        $this->branding = new Branding($db);
     }
 
     public function run(): never
@@ -38,6 +40,9 @@ final class App
         try {
             if ($method === 'GET' && $path === '/api/health') {
                 Http::respond(['status' => 'ok', 'service' => 'SKC Operaciones API', 'time' => gmdate(DATE_ATOM)]);
+            }
+            if ($method === 'GET' && $path === '/api/branding') {
+                Http::respond($this->branding->publicConfig());
             }
             if ($method === 'POST' && $path === '/api/auth/login') {
                 $body = Http::jsonBody();
