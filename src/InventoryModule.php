@@ -249,7 +249,7 @@ final class InventoryModule
         $response = $this->postJson($endpoint, [
             'model' => Env::get('MINIMAX_MODEL', 'MiniMax-M2.7'),
             'temperature' => 0.2,
-            'max_completion_tokens' => 1800,
+            'max_completion_tokens' => max(300, min(2048, (int) Env::get('MINIMAX_MAX_COMPLETION_TOKENS', '1200'))),
             'reasoning_split' => true,
             'messages' => [
                 ['role' => 'system', 'content' => 'Eres un asistente preciso de captura inmobiliaria en Colombia. Devuelves únicamente JSON válido, sin explicación.'],
@@ -514,8 +514,9 @@ final class InventoryModule
         }
         if (!function_exists('curl_init')) throw new RuntimeException('La extensión cURL es requerida.');
         $curl = curl_init($url);
+        $timeout = max(20, min(120, (int) Env::get('MINIMAX_TIMEOUT_SECONDS', '75')));
         curl_setopt_array($curl, [
-            CURLOPT_POST => true, CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 35,
+            CURLOPT_POST => true, CURLOPT_RETURNTRANSFER => true, CURLOPT_CONNECTTIMEOUT => 10, CURLOPT_TIMEOUT => $timeout,
             CURLOPT_HTTPHEADER => array_merge(['Content-Type: application/json', 'Accept: application/json'], $headers),
             CURLOPT_POSTFIELDS => $this->json($payload),
         ]);
@@ -526,7 +527,15 @@ final class InventoryModule
         if ($body === false || $status < 200 || $status >= 300) {
             $remote = json_decode((string) $body, true);
             $message = (string) ($remote['base_resp']['status_msg'] ?? $remote['error']['message'] ?? $remote['message'] ?? '');
-            throw new RuntimeException($error ?: ($message !== '' ? 'MiniMax: ' . mb_substr($message, 0, 300) : 'El servicio externo respondió HTTP ' . $status . '.'));
+            if ($error !== '') {
+                $isTimeout = str_contains(mb_strtolower($error), 'timed out');
+                throw new RuntimeException($isTimeout
+                    ? 'MiniMax tardó demasiado en responder. Intenta nuevamente con una descripción más corta.'
+                    : 'No se pudo conectar con MiniMax. Verifica la salida HTTPS del servidor.');
+            }
+            throw new RuntimeException($message !== ''
+                ? 'MiniMax: ' . mb_substr($message, 0, 300)
+                : 'MiniMax respondió HTTP ' . $status . '. Verifica la API key, el modelo y el saldo de la cuenta.');
         }
         $decoded = json_decode((string) $body, true);
         return is_array($decoded) ? $decoded : [];

@@ -101,11 +101,19 @@ final class App
                 $this->throttle('inventory-ai', 10, 60);
                 $this->auth->requireUser();
                 $body = Http::jsonBody();
-                Http::respond($this->inventory->aiFill(
-                    (string) ($body['mode'] ?? 'add'),
-                    (string) ($body['sectionId'] ?? ''),
-                    (string) ($body['transcript'] ?? '')
-                ));
+                try {
+                    Http::respond($this->inventory->aiFill(
+                        (string) ($body['mode'] ?? 'add'),
+                        (string) ($body['sectionId'] ?? ''),
+                        (string) ($body['transcript'] ?? '')
+                    ));
+                } catch (\RuntimeException $error) {
+                    error_log('[Form Studio AI] ' . $error->getMessage());
+                    $safeMessage = preg_match('/^(MiniMax|No se pudo conectar con MiniMax|El endpoint|Endpoint externo|La extensión cURL)/u', $error->getMessage())
+                        ? $error->getMessage()
+                        : 'No fue posible procesar el dictado con MiniMax. Revisa la configuración del proveedor.';
+                    Http::error('ai_provider_error', $safeMessage, 502);
+                }
             }
             if ($method === 'GET' && $path === '/api/functions') {
                 $this->auth->requireUser();
