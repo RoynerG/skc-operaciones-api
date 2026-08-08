@@ -44,7 +44,7 @@ final class Auth
 
         $funcionario = $this->provider() === 'funcionarios';
         $query = $funcionario
-            ? 'SELECT f.* FROM skc_app_api_tokens t JOIN ' . $this->funcionariosTable() . ' f ON f._ID = t.user_id WHERE t.token_hash = ? AND t.expires_at > ? LIMIT 1'
+            ? 'SELECT f.* FROM skc_app_api_tokens t JOIN ' . $this->funcionariosTable() . ' f ON CAST(f.id_empleado AS UNSIGNED) = t.user_id WHERE t.token_hash = ? AND t.expires_at > ? LIMIT 1'
             : 'SELECT u.* FROM skc_app_api_tokens t JOIN users u ON u.id = t.user_id WHERE t.token_hash = ? AND t.expires_at > ? LIMIT 1';
         $statement = $this->db->prepare($query);
         $statement->execute([$this->tokenHash($token), gmdate('Y-m-d H:i:s')]);
@@ -92,7 +92,7 @@ final class Auth
 
     private function createSession(array $user, bool $funcionario): array
     {
-        $userId = (int) ($funcionario ? $user['_ID'] : $user['id']);
+        $userId = (int) ($funcionario ? $user['id_empleado'] : $user['id']);
         $token = bin2hex(random_bytes(32));
         $ttl = max(1, min(168, (int) Env::get('TOKEN_TTL_HOURS', '12')));
         $now = gmdate('Y-m-d H:i:s');
@@ -108,7 +108,7 @@ final class Auth
     {
         if ($funcionario) {
             return [
-                'id' => (int) $user['_ID'],
+                'id' => (int) $user['id_empleado'],
                 'username' => trim((string) ($user['user_others_apss'] ?? '')),
                 'name' => trim((string) ($user['nombre'] ?? $user['user_others_apss'] ?? 'Funcionario')),
                 'email' => trim((string) ($user['correo'] ?? '')),
@@ -168,6 +168,6 @@ final class Auth
 
     private function tokenHash(string $token): string
     {
-        return hash('sha256', $this->provider() . ':' . $token);
+        return hash('sha256', 'v2:' . $this->provider() . ':' . $token);
     }
 }

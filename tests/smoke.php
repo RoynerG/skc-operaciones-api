@@ -35,18 +35,19 @@ function check(bool $condition, string $message): void
 try {
     $db = Database::connection();
     $db->exec("CREATE TABLE wp_jet_cct_funcionarios (
-        _ID INTEGER PRIMARY KEY, user_others_apss TEXT, pass_others_apss TEXT,
+        _ID INTEGER PRIMARY KEY, id_empleado TEXT, user_others_apss TEXT, pass_others_apss TEXT,
         nombre TEXT, correo TEXT, rol TEXT, activo TEXT
     )");
-    $statement = $db->prepare('INSERT INTO wp_jet_cct_funcionarios (_ID,user_others_apss,pass_others_apss,nombre,correo,rol,activo) VALUES (?,?,?,?,?,?,?)');
-    $statement->execute([1, 'smoke-user', 'SmokePass123', 'Funcionario Smoke', 'smoke@skc.local', 'Desarrollo', 'Si']);
-    $statement->execute([2, 'blocked-user', 'BlockedPass123', 'Funcionario Inactivo', 'blocked@skc.local', 'Desarrollo', 'No']);
+    $statement = $db->prepare('INSERT INTO wp_jet_cct_funcionarios (_ID,id_empleado,user_others_apss,pass_others_apss,nombre,correo,rol,activo) VALUES (?,?,?,?,?,?,?,?)');
+    $statement->execute([101, '1', 'smoke-user', 'SmokePass123', 'Funcionario Smoke', 'smoke@skc.local', 'Desarrollo', 'Si']);
+    $statement->execute([102, '2', 'blocked-user', 'BlockedPass123', 'Funcionario Inactivo', 'blocked@skc.local', 'Desarrollo', 'No']);
     $statement = null;
     $auth = new Auth($db);
     check($auth->login('smoke-user', 'clave-incorrecta') === null, 'Aceptó una clave incorrecta.');
     check($auth->login('blocked-user', 'BlockedPass123') === null, 'Permitió ingresar a un funcionario inactivo.');
     $session = $auth->login('smoke-user', 'SmokePass123');
     check(is_array($session) && strlen($session['token']) === 64, 'Falló el inicio de sesión de funcionarios.');
+    check(($session['user']['id'] ?? 0) === 1, 'La sesión no utilizó id_empleado como user_id.');
     check(($session['user']['username'] ?? '') === 'smoke-user', 'No presentó el usuario de otras aplicaciones.');
 
     $_SERVER['HTTP_AUTHORIZATION'] = 'Bearer ' . $session['token'];
