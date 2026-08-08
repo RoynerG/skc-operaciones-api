@@ -52,7 +52,7 @@ final class Database
     private static function migrate(PDO $db, bool $mysql): void
     {
         if ($mysql) {
-            // La base productiva ya posee `users` y el dominio del negocio.
+            // La base productiva ya posee funcionarios y las tablas del dominio.
             // La app solo agrega infraestructura propia, sin alterar esas tablas.
             $db->exec("CREATE TABLE IF NOT EXISTS skc_app_api_tokens (
                 id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,

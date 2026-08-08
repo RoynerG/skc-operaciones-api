@@ -41,8 +41,9 @@ final class App
             }
             if ($method === 'POST' && $path === '/api/auth/login') {
                 $body = Http::jsonBody();
-                $session = $this->auth->login((string) ($body['email'] ?? ''), (string) ($body['password'] ?? ''));
-                $session ? Http::respond($session) : Http::error('invalid_credentials', 'Correo o contraseña incorrectos.', 401);
+                $username = (string) ($body['username'] ?? $body['email'] ?? '');
+                $session = $this->auth->login($username, (string) ($body['password'] ?? ''));
+                $session ? Http::respond($session) : Http::error('invalid_credentials', 'Usuario o contraseña incorrectos.', 401);
             }
             if ($method === 'GET' && $path === '/api/auth/me') {
                 Http::respond(['user' => $this->auth->requireUser()]);

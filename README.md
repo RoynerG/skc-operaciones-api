@@ -2,6 +2,9 @@
 
 API PHP 8.2 nativa para los módulos operativos de SKC. El primer módulo es Inventario inmobiliario y trabaja directamente sobre las tablas MySQL actuales sin cargar WordPress.
 
+El acceso de producción reutiliza `user_others_apss` y `pass_others_apss` de
+`wp_jet_cct_funcionarios`; únicamente permite funcionarios con `activo = Si`.
+
 ## Producción
 
 - URL: `https://apiskccbo2.sucasainmobiliaria.com.co`

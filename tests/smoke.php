@@ -22,6 +22,8 @@ putenv('DB_DATABASE=' . $database);
 putenv('ADMIN_EMAIL=smoke@skc.local');
 putenv('ADMIN_PASSWORD=SmokePass123');
 putenv('APP_URL=http://localhost:8080');
+putenv('AUTH_PROVIDER=funcionarios');
+putenv('AUTH_FUNCIONARIOS_TABLE=wp_jet_cct_funcionarios');
 
 function check(bool $condition, string $message): void
 {
@@ -32,9 +34,20 @@ function check(bool $condition, string $message): void
 
 try {
     $db = Database::connection();
+    $db->exec("CREATE TABLE wp_jet_cct_funcionarios (
+        _ID INTEGER PRIMARY KEY, user_others_apss TEXT, pass_others_apss TEXT,
+        nombre TEXT, correo TEXT, rol TEXT, activo TEXT
+    )");
+    $statement = $db->prepare('INSERT INTO wp_jet_cct_funcionarios (_ID,user_others_apss,pass_others_apss,nombre,correo,rol,activo) VALUES (?,?,?,?,?,?,?)');
+    $statement->execute([1, 'smoke-user', 'SmokePass123', 'Funcionario Smoke', 'smoke@skc.local', 'Desarrollo', 'Si']);
+    $statement->execute([2, 'blocked-user', 'BlockedPass123', 'Funcionario Inactivo', 'blocked@skc.local', 'Desarrollo', 'No']);
+    $statement = null;
     $auth = new Auth($db);
-    $session = $auth->login('smoke@skc.local', 'SmokePass123');
-    check(is_array($session) && strlen($session['token']) === 64, 'Falló el inicio de sesión.');
+    check($auth->login('smoke-user', 'clave-incorrecta') === null, 'Aceptó una clave incorrecta.');
+    check($auth->login('blocked-user', 'BlockedPass123') === null, 'Permitió ingresar a un funcionario inactivo.');
+    $session = $auth->login('smoke-user', 'SmokePass123');
+    check(is_array($session) && strlen($session['token']) === 64, 'Falló el inicio de sesión de funcionarios.');
+    check(($session['user']['username'] ?? '') === 'smoke-user', 'No presentó el usuario de otras aplicaciones.');
 
     $_SERVER['HTTP_AUTHORIZATION'] = 'Bearer ' . $session['token'];
     check($auth->userFromRequest()['email'] === 'smoke@skc.local', 'El token no recuperó al usuario.');
