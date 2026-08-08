@@ -81,10 +81,14 @@ try {
             'fields' => [
                 ['name' => 'descripcion_sala', 'label' => 'Elemento', 'type' => 'select', 'glossaryId' => 669],
                 ['name' => 'cantidad_sala', 'label' => 'Cantidad', 'type' => 'text'],
+                ['name' => 'texto_cantidad_sala', 'label' => 'Todo el inmueble', 'type' => 'checkbox', 'options' => [
+                    ['value' => 'Todo el inmueble', 'label' => 'Todo el inmueble'],
+                ]],
                 ['name' => 'tipo_de_material_sala', 'label' => 'Material', 'type' => 'text'],
                 ['name' => 'estado_sala', 'label' => 'Estado', 'type' => 'select', 'glossaryId' => 673],
+                ['name' => 'observaciones_sala', 'label' => 'Observaciones', 'type' => 'textarea'],
                 ['name' => 'ninguna_sala', 'label' => 'Disponibilidad', 'type' => 'checkbox', 'options' => [
-                    ['value' => 'Ninguna', 'label' => 'Ninguna'], ['value' => 'Tiene', 'label' => 'Tiene'],
+                    ['value' => 'Ninguna', 'label' => 'Ninguna'],
                 ]],
             ],
         ]],
@@ -100,7 +104,15 @@ try {
     check(($aiValues['sala'][0]['estado_sala'] ?? '') === 'Bueno', 'La IA no normalizó el estado del repetidor.');
     check(($aiValues['sala'][0]['tipo_de_material_sala'] ?? '') === 'madera', 'La IA no conservó el material dictado.');
     check(($aiValues['sala'][0]['cantidad_sala'] ?? '') === '1', 'La IA no asignó cantidad uno al elemento singular.');
-    check(($aiValues['sala'][0]['ninguna_sala'] ?? []) === ['Tiene'], 'La IA no marcó que el repetidor tiene elementos.');
+    check(!array_key_exists('ninguna_sala', $aiValues['sala'][0]), 'La IA marcó una disponibilidad que no fue dictada.');
+    $wholePropertyValues = $aiMapper->normalize(['sala' => [[
+        'descripcion_sala' => 'Puertas', 'cantidad_sala' => '3', 'texto_cantidad_sala' => ['Todo el inmueble'],
+    ]]], $aiSpecification);
+    check(!array_key_exists('cantidad_sala', $wholePropertyValues['sala'][0]), 'La IA conservó número y Todo el inmueble al mismo tiempo.');
+    check(($wholePropertyValues['sala'][0]['texto_cantidad_sala'] ?? []) === ['Todo el inmueble'], 'La IA no conservó Todo el inmueble.');
+    $absentValues = $aiMapper->normalize(['sala' => [['ninguna_sala' => ['Ninguna']]]], $aiSpecification);
+    check(($absentValues['sala'][0]['observaciones_sala'] ?? '') === 'Ninguna', 'La IA no reflejó Ninguna en observaciones.');
+    check(!array_key_exists('cantidad_sala', $absentValues['sala'][0]), 'La IA asignó cantidad a un elemento inexistente.');
 
     $forms = new FormRepository($db);
     $definition = FormRepository::starter('prueba-integral', 'Prueba integral');

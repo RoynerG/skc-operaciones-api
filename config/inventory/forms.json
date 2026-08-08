@@ -1874,10 +1874,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -1963,10 +1959,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -2052,10 +2044,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -2141,10 +2129,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -2230,10 +2214,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -2319,10 +2299,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -2408,10 +2384,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -2497,10 +2469,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -2638,10 +2606,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -2727,10 +2691,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -2935,10 +2895,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -3024,10 +2980,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -3159,10 +3111,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -3248,10 +3196,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -3383,10 +3327,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -3472,10 +3412,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -3607,10 +3543,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -3696,10 +3628,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -3831,10 +3759,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -3920,10 +3844,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -4055,10 +3975,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -4144,10 +4060,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -4279,10 +4191,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -4368,10 +4276,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -4503,10 +4407,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -4592,10 +4492,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -4727,10 +4623,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -4816,10 +4708,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -4951,10 +4839,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -5040,10 +4924,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -5248,10 +5128,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -5337,10 +5213,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -5472,10 +5344,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -5561,10 +5429,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -5696,10 +5560,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -5785,10 +5645,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -5920,10 +5776,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -6009,10 +5861,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -6144,10 +5992,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -6233,10 +6077,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -6368,10 +6208,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -6457,10 +6293,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -6592,10 +6424,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -6681,10 +6509,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -6816,10 +6640,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -6905,10 +6725,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -7040,10 +6856,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -7129,10 +6941,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -7264,10 +7072,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -7353,10 +7157,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -7502,10 +7302,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -7651,10 +7447,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -7800,10 +7592,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -7915,10 +7703,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -8005,10 +7789,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -8170,10 +7950,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -8281,10 +8057,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -8371,10 +8143,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -8482,10 +8250,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -8572,10 +8336,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -8683,10 +8443,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -8773,10 +8529,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -8884,10 +8636,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -8974,10 +8722,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -9085,10 +8829,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -9175,10 +8915,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -9286,10 +9022,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -9376,10 +9108,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -9487,10 +9215,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -9577,10 +9301,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -9688,10 +9408,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -9778,10 +9494,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -9889,10 +9601,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -9979,10 +9687,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -10090,10 +9794,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -10180,10 +9880,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -10291,10 +9987,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -10381,10 +10073,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -10492,10 +10180,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -10582,10 +10266,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -10693,10 +10373,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -10783,10 +10459,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -10894,10 +10566,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -10984,10 +10652,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -11095,10 +10759,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -11185,10 +10845,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -11296,10 +10952,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -11386,10 +11038,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -11497,10 +11145,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -11587,10 +11231,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -11698,10 +11338,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -11788,10 +11424,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -11899,10 +11531,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -11989,10 +11617,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -12100,10 +11724,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -12190,10 +11810,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -12301,10 +11917,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -12391,10 +12003,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -12502,10 +12110,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -12592,10 +12196,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -12757,10 +12357,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -12868,10 +12464,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -12958,10 +12550,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -13069,10 +12657,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -13159,10 +12743,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -13324,10 +12904,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -15641,10 +15217,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -15730,10 +15302,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -15819,10 +15387,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -15908,10 +15472,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -15997,10 +15557,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -16086,10 +15642,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -16175,10 +15727,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -16264,10 +15812,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -16405,10 +15949,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -16494,10 +16034,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -16702,10 +16238,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -16791,10 +16323,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -16926,10 +16454,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -17015,10 +16539,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -17150,10 +16670,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -17239,10 +16755,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -17374,10 +16886,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -17463,10 +16971,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -17598,10 +17102,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -17687,10 +17187,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -17822,10 +17318,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -17911,10 +17403,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -18046,10 +17534,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -18135,10 +17619,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -18270,10 +17750,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -18359,10 +17835,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -18494,10 +17966,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -18583,10 +18051,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -18718,10 +18182,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -18807,10 +18267,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -19015,10 +18471,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -19104,10 +18556,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -19239,10 +18687,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -19328,10 +18772,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -19463,10 +18903,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -19552,10 +18988,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -19687,10 +19119,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -19776,10 +19204,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -19911,10 +19335,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -20000,10 +19420,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -20135,10 +19551,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -20224,10 +19636,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -20359,10 +19767,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -20448,10 +19852,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -20583,10 +19983,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -20672,10 +20068,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -20807,10 +20199,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -20896,10 +20284,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -21031,10 +20415,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -21120,10 +20500,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -21269,10 +20645,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -21418,10 +20790,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -21567,10 +20935,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -21682,10 +21046,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -21772,10 +21132,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -21937,10 +21293,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -22048,10 +21400,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -22138,10 +21486,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -22249,10 +21593,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -22339,10 +21679,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -22450,10 +21786,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -22540,10 +21872,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -22651,10 +21979,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -22741,10 +22065,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -22852,10 +22172,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -22942,10 +22258,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -23053,10 +22365,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -23143,10 +22451,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -23254,10 +22558,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -23344,10 +22644,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -23455,10 +22751,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -23545,10 +22837,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -23656,10 +22944,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -23746,10 +23030,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -23857,10 +23137,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -23947,10 +23223,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -24058,10 +23330,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -24148,10 +23416,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -24259,10 +23523,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -24349,10 +23609,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -24460,10 +23716,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -24550,10 +23802,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -24661,10 +23909,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -24751,10 +23995,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -24862,10 +24102,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -24952,10 +24188,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -25063,10 +24295,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -25153,10 +24381,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -25264,10 +24488,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -25354,10 +24574,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -25465,10 +24681,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -25555,10 +24767,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -25666,10 +24874,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -25756,10 +24960,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -25867,10 +25067,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -25957,10 +25153,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -26068,10 +25260,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -26158,10 +25346,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -26269,10 +25453,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -26359,10 +25539,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -26524,10 +25700,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -26635,10 +25807,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -26725,10 +25893,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -26836,10 +26000,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -26926,10 +26086,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -27091,10 +26247,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -29480,10 +28632,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -29569,10 +28717,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -29658,10 +28802,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -29747,10 +28887,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -29836,10 +28972,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -29925,10 +29057,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -30014,10 +29142,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -30103,10 +29227,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -30232,10 +29352,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -30321,10 +29437,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -30519,10 +29631,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -30608,10 +29716,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -30731,10 +29835,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -30820,10 +29920,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -30943,10 +30039,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -31032,10 +30124,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -31155,10 +30243,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -31244,10 +30328,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -31367,10 +30447,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -31456,10 +30532,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -31579,10 +30651,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -31668,10 +30736,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -31791,10 +30855,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -31880,10 +30940,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -32003,10 +31059,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -32092,10 +31144,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -32215,10 +31263,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -32304,10 +31348,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -32427,10 +31467,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -32516,10 +31552,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -32714,10 +31746,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -32803,10 +31831,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -32926,10 +31950,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -33015,10 +32035,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -33138,10 +32154,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -33227,10 +32239,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -33350,10 +32358,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -33439,10 +32443,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -33562,10 +32562,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -33651,10 +32647,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -33774,10 +32766,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -33863,10 +32851,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -33986,10 +32970,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -34075,10 +33055,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -34198,10 +33174,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -34287,10 +33259,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -34410,10 +33378,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -34499,10 +33463,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -34622,10 +33582,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [],
@@ -34711,10 +33667,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -34860,10 +33812,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -35009,10 +33957,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -35158,10 +34102,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [],
@@ -35273,10 +34213,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -35363,10 +34299,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -35528,10 +34460,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -35639,10 +34567,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -35729,10 +34653,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -35840,10 +34760,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -35930,10 +34846,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -36041,10 +34953,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -36131,10 +35039,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -36242,10 +35146,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -36332,10 +35232,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -36443,10 +35339,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -36533,10 +35425,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -36644,10 +35532,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -36734,10 +35618,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -36845,10 +35725,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -36935,10 +35811,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -37046,10 +35918,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -37136,10 +36004,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -37247,10 +36111,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -37337,10 +36197,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -37448,10 +36304,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -37538,10 +36390,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -37649,10 +36497,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -37739,10 +36583,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -37850,10 +36690,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -37940,10 +36776,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -38051,10 +36883,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -38141,10 +36969,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -38252,10 +37076,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -38342,10 +37162,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -38453,10 +37269,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -38543,10 +37355,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -38654,10 +37462,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -38744,10 +37548,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -38855,10 +37655,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -38945,10 +37741,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -39056,10 +37848,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -39146,10 +37934,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -39257,10 +38041,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -39347,10 +38127,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -39458,10 +38234,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -39548,10 +38320,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -39659,10 +38427,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -39749,10 +38513,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -39860,10 +38620,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -39950,10 +38706,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -40115,10 +38867,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -40226,10 +38974,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -40316,10 +39060,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -40427,10 +39167,6 @@
                     {
                       "label": "Todo el inmueble",
                       "value": "Todo el inmueble"
-                    },
-                    {
-                      "label": "Nada",
-                      "value": "Nada"
                     }
                   ],
                   "conditions": [
@@ -40517,10 +39253,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [
@@ -40682,10 +39414,6 @@
                     {
                       "label": "Ninguna",
                       "value": "Ninguna"
-                    },
-                    {
-                      "label": "Tiene",
-                      "value": "Tiene"
                     }
                   ],
                   "conditions": [

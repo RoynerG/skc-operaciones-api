@@ -247,7 +247,7 @@ final class InventoryModule
             . "Si se menciona un elemento singular sin cantidad, usa cantidad 1. No inventes información ausente. "
             . "Relaciona palabras en singular o variaciones naturales con la opción permitida equivalente; por ejemplo, puerta con Puertas y cerradura con Cerraduras. "
             . "Separa estrictamente elemento, cantidad, material, estado y observaciones según la guía de cada campo. "
-            . "Cuando crees una fila para un elemento y exista un campo de disponibilidad, selecciona Tiene. "
+            . "La cantidad debe ser un número o la opción Todo el inmueble, nunca ambas. Usa Ninguna únicamente cuando el dictado diga que no existe ningún elemento. "
             . "Responde únicamente JSON válido con la forma {\"values\":{...}}.\nEsquema permitido: "
             . $this->json($allowed) . "\nDictado del funcionario: " . mb_substr(trim($transcript), 0, 12000);
         $response = $this->postJson($endpoint, [
