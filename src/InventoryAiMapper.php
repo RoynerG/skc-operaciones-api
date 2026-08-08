@@ -98,6 +98,13 @@ final class InventoryAiMapper
                     if ($quantityField !== null && empty($normalizedRow[$quantityField])) {
                         $normalizedRow[$quantityField] = '1';
                     }
+                    $availabilityField = $this->availabilityField((array) ($definition['fields'] ?? []));
+                    if ($availabilityField !== null && empty($normalizedRow[$availabilityField])) {
+                        $availability = $this->normalizeField(['Tiene'], (array) $definition['fields'][$availabilityField]);
+                        if ($availability !== []) {
+                            $normalizedRow[$availabilityField] = $availability;
+                        }
+                    }
                     $clean[$name][] = $normalizedRow;
                 }
             }
@@ -115,6 +122,7 @@ final class InventoryAiMapper
         return [
             'label' => (string) ($field['label'] ?? $field['name'] ?? ''),
             'type' => (string) ($field['type'] ?? 'text'),
+            'guide' => $this->fieldGuide((string) ($field['name'] ?? ''), (string) ($field['type'] ?? 'text')),
             'options' => array_map(static fn(array $option): array => [
                 'value' => (string) ($option['value'] ?? ''),
                 'label' => (string) ($option['label'] ?? $option['value'] ?? ''),
@@ -187,5 +195,29 @@ final class InventoryAiMapper
             }
         }
         return null;
+    }
+
+    private function availabilityField(array $fields): ?string
+    {
+        foreach (array_keys($fields) as $fieldName) {
+            if (str_starts_with((string) $fieldName, 'ninguna_')) {
+                return (string) $fieldName;
+            }
+        }
+        return null;
+    }
+
+    private function fieldGuide(string $name, string $type): string
+    {
+        if (str_starts_with($name, 'descripcion_')) return 'Elemento físico. Elige el valor permitido más cercano, aunque se dicte en singular.';
+        if (str_starts_with($name, 'cantidad_')) return 'Cantidad numérica. Si no se menciona para un elemento singular, usa 1.';
+        if (str_starts_with($name, 'texto_cantidad_')) return 'Cantidad especial. Úsala solo si se dicta Todo el inmueble o Nada.';
+        if (str_starts_with($name, 'tipo_de_material_')) return 'Material del elemento: madera, metal, vidrio, plástico u otro texto dictado.';
+        if (str_starts_with($name, 'estado_')) return 'Estado del elemento. Debe coincidir exactamente con una opción permitida.';
+        if (str_starts_with($name, 'observaciones_')) return 'Detalle libre sobre funcionamiento, daños, faltantes o características.';
+        if (str_starts_with($name, 'ninguna_')) return 'Marca Tiene cuando se esté describiendo un elemento; Ninguna solo si se indica que no existe ninguno.';
+        return in_array($type, ['select', 'radio', 'checkbox'], true)
+            ? 'Usa exclusivamente uno de los valores permitidos.'
+            : 'Conserva únicamente la información expresada en el dictado.';
     }
 }

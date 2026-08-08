@@ -83,6 +83,9 @@ try {
                 ['name' => 'cantidad_sala', 'label' => 'Cantidad', 'type' => 'text'],
                 ['name' => 'tipo_de_material_sala', 'label' => 'Material', 'type' => 'text'],
                 ['name' => 'estado_sala', 'label' => 'Estado', 'type' => 'select', 'glossaryId' => 673],
+                ['name' => 'ninguna_sala', 'label' => 'Disponibilidad', 'type' => 'checkbox', 'options' => [
+                    ['value' => 'Ninguna', 'label' => 'Ninguna'], ['value' => 'Tiene', 'label' => 'Tiene'],
+                ]],
             ],
         ]],
     ], static fn(int $id): array => $id === 669
@@ -97,6 +100,7 @@ try {
     check(($aiValues['sala'][0]['estado_sala'] ?? '') === 'Bueno', 'La IA no normalizó el estado del repetidor.');
     check(($aiValues['sala'][0]['tipo_de_material_sala'] ?? '') === 'madera', 'La IA no conservó el material dictado.');
     check(($aiValues['sala'][0]['cantidad_sala'] ?? '') === '1', 'La IA no asignó cantidad uno al elemento singular.');
+    check(($aiValues['sala'][0]['ninguna_sala'] ?? []) === ['Tiene'], 'La IA no marcó que el repetidor tiene elementos.');
 
     $forms = new FormRepository($db);
     $definition = FormRepository::starter('prueba-integral', 'Prueba integral');
