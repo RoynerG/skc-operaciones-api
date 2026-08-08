@@ -59,6 +59,10 @@ try {
     check($auth->userFromRequest()['email'] === 'smoke@skc.local', 'El token no recuperó al usuario.');
 
     $inventory = new InventoryModule($db);
+    putenv("MINIMAX_ENDPOINT=MINIMAX_ENDPOINT='api.minimax.io/v1'");
+    $endpointMethod = new ReflectionMethod($inventory, 'minimaxEndpoint');
+    check($endpointMethod->invoke($inventory) === 'https://api.minimax.io/v1/chat/completions', 'No normalizó el endpoint de MiniMax.');
+    putenv('MINIMAX_ENDPOINT');
     $inventoryBoot = $inventory->bootstrap('add', ['id_inmueble' => '77'], $session['user']);
     check(count($inventoryBoot['schema']['sections'] ?? []) === 12, 'No cargó las 12 secciones del inventario migrado.');
     $inventoryDraft = $inventory->saveDraft('add', ['id_inmueble' => '77'], [

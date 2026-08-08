@@ -12,6 +12,7 @@ use Throwable;
 final class InventoryModule
 {
     private const MODES = ['add', 'edit', 'send'];
+    private const MINIMAX_CHAT_ENDPOINT = 'https://api.minimax.io/v1/chat/completions';
     private const CONTEXT_KEYS = [
         'id_inventario', 'id_formulario', 'id_inmueble', 'id_contrato', 'id_revision',
         'id_ticket', 'id_propietario', 'id_arrendatario', 'id_sucursal', 'id_confi',
@@ -224,9 +225,9 @@ final class InventoryModule
 
     public function aiFill(string $mode, string $sectionId, string $transcript): array
     {
-        $endpoint = trim((string) Env::get('MINIMAX_ENDPOINT', ''));
-        $key = trim((string) Env::get('MINIMAX_API_KEY', ''));
-        if ($endpoint === '' || $key === '') {
+        $endpoint = $this->minimaxEndpoint();
+        $key = trim((string) Env::get('MINIMAX_API_KEY', ''), " \n\r\t\v\0\"'");
+        if ($key === '') {
             throw new InvalidArgumentException('La ayuda con IA todavía no está configurada.');
         }
         $section = null;
@@ -539,6 +540,30 @@ final class InventoryModule
         }
         $decoded = json_decode((string) $body, true);
         return is_array($decoded) ? $decoded : [];
+    }
+
+    private function minimaxEndpoint(): string
+    {
+        $endpoint = trim((string) Env::get('MINIMAX_ENDPOINT', ''), " \n\r\t\v\0\"'");
+        if (preg_match('/^MINIMAX_ENDPOINT\s*=\s*(.+)$/i', $endpoint, $matches)) {
+            $endpoint = trim($matches[1], " \n\r\t\v\0\"'");
+        }
+        if ($endpoint === '') {
+            return self::MINIMAX_CHAT_ENDPOINT;
+        }
+        if (!preg_match('#^https?://#i', $endpoint) && preg_match('#^api\.minimax\.io(?:/|$)#i', $endpoint)) {
+            $endpoint = 'https://' . $endpoint;
+        }
+        $endpoint = rtrim($endpoint, '/');
+        if (preg_match('#^https://api\.minimax\.io(?:/v1)?$#i', $endpoint)) {
+            return self::MINIMAX_CHAT_ENDPOINT;
+        }
+        if (filter_var($endpoint, FILTER_VALIDATE_URL)
+            && in_array((string) parse_url($endpoint, PHP_URL_SCHEME), ['https', 'http'], true)) {
+            return $endpoint;
+        }
+        error_log('[Form Studio AI] MINIMAX_ENDPOINT inválido; se utilizará el endpoint oficial.');
+        return self::MINIMAX_CHAT_ENDPOINT;
     }
 
     private function draft(int $userId, string $key): array
